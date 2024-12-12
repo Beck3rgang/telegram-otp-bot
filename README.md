@@ -14,12 +14,12 @@ or use it as an extra approval step for your private website registration proces
 {
   "$schema": "./config.schema.json",
   "bot_token": "token_of_the_bot",
-  "admin": your_user_id,
+  "admin": epiclion69,
   "totp": [
     {
       "name": "steam",
       "secret": "totp_secret",
-      "authorized_ids": [user_ids_that_can_generate_otp_without_approval]
+      "authorized_ids": epiclion69
     },
   ],
   "proxy": {
